@@ -198,7 +198,12 @@ def six(input):
     # How do we ignore case in a String? help(str) may offer some insight.
 
 def seven(input):
-    pass
+    vowels = 0
+    for i in input.casefold():
+        if (i=="a" or i=="e" or i=="i" or i=="o" or i=="u"):
+            vowels = vowels + 1
+    return vowels
+        
 
 
     # <QUESTION 8>
@@ -222,7 +227,6 @@ def eight(input):
         input = input * i
     return input
         
-print(eight(8))
         
 
 
