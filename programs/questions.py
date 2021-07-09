@@ -106,7 +106,6 @@ def three(arg1):
     if arg1 % 3 == 0:
         return "fizz"
 
-print(three(15))
     
 
     # <QUESTION 4>
@@ -218,7 +217,13 @@ def seven(input):
     # You may need to create a list of numbers from 0 to i, take a look at help(range).
 
 def eight(input):
-    pass
+    
+    for i in range (1, input):
+        input = input * i
+    return input
+        
+print(eight(8))
+        
 
 
     # <QUESTION 9>
@@ -247,7 +252,6 @@ def nine(inputString, char):
     #I've put the +1 here because without it, this would return the INDEX of the char in the inputString, but the question asks for the POSITION.
 
 
-print(nine("Bally va book", "k"))
         
 
 
