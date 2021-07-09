@@ -67,12 +67,10 @@ def one(input1, input2):
     # Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-    bert = "bert"
-    if "bert" in input:
-        return input.strip(bert)
-
-
-
+    pass
+    # bert = "bert"
+    # if "bert" in input:
+    #     return input.strip(bert)
 
 
     # <QUESTION 3>
@@ -95,19 +93,19 @@ def two(input):
     # No Hints for this question
 
 def three(arg1):
-    if arg1 % 3 or 5 == 0:
-        return "fizzbuzz"
-    elif arg1 % 3 != 0:
-        return "null"
-    if arg1 % 5 != 0:
-        return "null"
-    if arg1 % 5 == 0:
-        return "buzz"
-    if arg1 % 3 == 0:
-        return "fizz"
+    pass
+    # if arg1 % 3 or 5 == 0:
+    #     return "fizzbuzz"
+    # elif arg1 % 3 != 0:
+    #     return "null"
+    # if arg1 % 5 != 0:
+    #     return "null"
+    # if arg1 % 5 == 0:
+    #     return "buzz"
+    # if arg1 % 3 == 0:
+    #     return "fizz"
 
     
-
     # <QUESTION 4>
 
     # Given a string seperate the string into the individual numbers present, then add each digit of each number to get a final value for each number
@@ -131,7 +129,7 @@ def three(arg1):
     # help(int) for working with numbers and help(str) for working with Strings.
 
 def four(arg1):
-    pass
+    
 
 
     # <QUESTION 5>
@@ -203,7 +201,6 @@ def seven(input):
         if (i=="a" or i=="e" or i=="i" or i=="o" or i=="u"):
             vowels = vowels + 1
     return vowels
-        
 
 
     # <QUESTION 8>
