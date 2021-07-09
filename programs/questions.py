@@ -67,7 +67,12 @@ def one(input1, input2):
     # Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-    pass
+    bert = "bert"
+    if "bert" in input:
+        return input.strip(bert)
+
+
+
 
 
     # <QUESTION 3>
@@ -90,8 +95,19 @@ def two(input):
     # No Hints for this question
 
 def three(arg1):
-    pass
+    if arg1 % 3 or 5 == 0:
+        return "fizzbuzz"
+    elif arg1 % 3 != 0:
+        return "null"
+    if arg1 % 5 != 0:
+        return "null"
+    if arg1 % 5 == 0:
+        return "buzz"
+    if arg1 % 3 == 0:
+        return "fizz"
 
+print(three(15))
+    
 
     # <QUESTION 4>
 
@@ -167,8 +183,7 @@ def five(input):
 
 def six(input):
     pass
-
-
+    
     # <QUESTION 7>
 
     # Write a function which returns the integer number of vowels in a given string. 
@@ -225,7 +240,15 @@ def eight(input):
     # Take a look at the documentation for Strings, List and range.
 
 def nine(inputString, char):
-    pass
+    if inputString.find(char):
+        return inputString.replace(" ", "").find(char)+1
+    else:
+        return -1
+    #I've put the +1 here because without it, this would return the INDEX of the char in the inputString, but the question asks for the POSITION.
+
+
+print(nine("Bally va book", "k"))
+        
 
 
     # <QUESTION 10>
