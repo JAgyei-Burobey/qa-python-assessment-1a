@@ -129,6 +129,14 @@ def three(arg1):
     # help(int) for working with numbers and help(str) for working with Strings.
 
 def four(arg1):
+    pass
+    # result = 0
+    # while arg1 > 0:
+    #     rem = arg1 % 10
+    #     result = result + rem
+    #     arg1 = int(arg1/10)
+
+
     
 
 
